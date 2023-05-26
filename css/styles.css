@@ -52,11 +52,10 @@ footer {
     font-size: 2.75em;
     font-weight: 900;
     line-height: 1.363636363636364;
-    letter-spacing: 6%;
     text-align: center;
 }
 
-button {
+.main-side-button {
     color: #FFFFFF;
     background-color: #2196F3;
     font-weight: bold;
@@ -74,6 +73,7 @@ button {
 .article-text {
     color: #757575;
     font-size: 0.875em;
+    line-height: 1.714285714285714;
 }
 
 /* section 3 our job */
@@ -96,9 +96,37 @@ button {
 .contact2 {
     font-size: 0.875em;
     color: #FFFFFF;
+    line-height: 1.714285714285714;
 }
 
 .contact3 {
     font-size: 0.875em;
-    color: rgba(255,255,255, 0.6)  /* bialy, 60% przezroczystosci */
+    color: rgba(255,255,255, 0.6);  /* bialy, 60% przezroczystosci */
+    line-height: 1.714285714285714;
+}
+
+
+
+            /* PORTFOLIO */
+.portfolio-button {
+    background-color: #F5F4FA;
+    cursor: pointer;
+    border-width: 0;
+    line-height: 1.625;
+}
+.portfolio-button:focus,
+.portfolio-button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.product-title {
+    font-weight: bold;
+    font-size: 1.125em;
+    line-height: 2;
+}
+
+.product-type {
+    color: #757575;
+    line-height: 1.875;
 }
